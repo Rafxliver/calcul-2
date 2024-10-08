@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>Calculadora de física</h1>
+        <form id="magneticForceForm">
+            <label for="charge">Carga (q) em Coulombs:</label>
+            <input type="number" id="charge" required placeholder="Insira um número">
+            <label for="velocity">Velocidade (v) em m/s:</label>
+            <input type="number" id="velocity" required placeholder="Insira um número">
+            <label for="magneticField">Campo Magnético (B) em Tesla:</label>
+            <input type="number" id="magneticField" required placeholder="Insira um número">
+            <button type="button" onclick="calculateForce()">Calcular Força</button>
+        <form id="magneticForceForm">
+        <p id="result"></p>
+        <label>Q1:</label>
+        <input type="number" id="Q1" placeholder="Insira o número">
+
+        <label>Q2:</label>
+        <input type="number" id="Q2" placeholder="Insira o número">
+
+        <label>D:</label>
+        <input type="number" id="D" placeholder="Insira o número">
+        
+        <button onclick="calcular()">Calcular</button>
+        <div id="result"></div>
+    </div>
+    </form>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+
